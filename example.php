@@ -28,17 +28,6 @@ if ($_POST) {
     # Your parse functions here
     #
 
-    print_r($example_array);
-    
-    
-
-$fp = fopen('data.txt', 'w');
-fwrite($fp, '1');
-fwrite($fp, '23');
-fclose($fp);
-
-
-
  
     # Return json object with first instance being success: True
     # If you do not do this, user will get an error. 
