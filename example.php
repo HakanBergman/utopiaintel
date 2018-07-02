@@ -30,7 +30,7 @@ if ($_POST) {
 
     print_r($example_array);
     
-    <?php
+    
 $file = 'people.txt';
 file_put_contents($file, $example_array);
 
