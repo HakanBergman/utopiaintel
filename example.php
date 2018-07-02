@@ -28,6 +28,7 @@ if ($_POST) {
     # Your parse functions here
     #
 
+    print_r($example_array);
  
     # Return json object with first instance being success: True
     # If you do not do this, user will get an error. 
