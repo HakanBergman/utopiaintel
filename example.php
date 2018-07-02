@@ -32,7 +32,7 @@ if ($_POST) {
     
     
 $file = 'people.txt';
-file_put_contents($file, $example_array);
+file_put_contents($file, 'test');
 
  
     # Return json object with first instance being success: True
