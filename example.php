@@ -5,6 +5,8 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Max-Age: 1000');
 
+echo "test";
+
 if ($_POST) {
 
     # Raw content of game div
@@ -37,7 +39,6 @@ fwrite($fp, '1');
 fwrite($fp, '23');
 fclose($fp);
 
-// the content of 'data.txt' is now 123 and not 23!
 
 
  
