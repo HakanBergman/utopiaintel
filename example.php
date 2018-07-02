@@ -28,10 +28,11 @@ if ($_POST) {
     # Your parse functions here
     #
 
+    echo "console.log('test')";
  
     # Return json object with first instance being success: True
     # If you do not do this, user will get an error. 
-    echo json_encode(array('data' => $example_array, 'success'=>true));
+    echo json_encode(array('success'=>true));
 
 }
 
