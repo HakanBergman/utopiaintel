@@ -28,7 +28,7 @@ if ($_POST) {
     # Your parse functions here
     #
 
-    print_r($exampl_array);
+    print_r($example_array);
 
  
     # Return json object with first instance being success: True
