@@ -5,7 +5,7 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Max-Age: 1000');
 
-echo "test";
+echo json_encode(array('success'=>true));
 
 if ($_POST) {
 
